@@ -23,7 +23,7 @@ public class CalculatorTest {
 	@Test
 	public void testSubthraktionZweiPositiveOk() {
 		testee = new Calculator();
-		assertTrue(testee.differenz(25, 10)== 15);
+		assertTrue(testee.differenz(25, 5)== 20);
 	}
 
 }
