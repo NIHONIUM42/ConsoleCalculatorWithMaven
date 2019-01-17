@@ -35,7 +35,7 @@ public class CalculatorTest {
 	@Test
 	public void testDivisionZweiPositiveOk() {
 		testee = new Calculator();
-		assertTrue(testee.quotient(10, 2)== 5);
+		assertTrue(testee.quotient(10,2)== 5);
 	}
 
 }
