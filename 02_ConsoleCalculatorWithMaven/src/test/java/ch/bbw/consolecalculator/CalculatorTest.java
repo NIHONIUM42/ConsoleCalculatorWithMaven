@@ -22,21 +22,29 @@ public class CalculatorTest {
 	}
 	
 	@Test(expected=java.lang.ArithmeticException.class)
-	public void testSummeZeiPositiveWithOverflowThrowsException(){
+	public void testSummeZweiPositiveWithOverflowThrowsException(){
 		testeee = new Calculator();
 		assertTrue(testeee.summe(Integer.MAX_VALUE, 2) != 0);
 	}
 	
+	//exception expected, otherwise test fails
+	@Test (expected=java.lang.ArithmeticException.class)
+	public void testDifferenzByZeroThrowsException(){
+		testeee = new Calculator();
+		assertTrue(testeee.differenz(10,0) == Double.POSITIVE_INFINITY);
+	}
+	
+	//tests mit Max- und Min-Value
 	@Test
 	public void testSummeMaximum1()   {
 		testeee = new Calculator();
-		assertTrue(testeee.summe(25.0, Double.MAX_VALUE) == (Double.MAX_VALUE));
+		assertTrue(testeee.summe(4.0, Double.MAX_VALUE) == (Double.MAX_VALUE));
 	}
 
 	@Test
 	public void testSummeMinimum1()   {
 		testeee = new Calculator();
-		assertTrue(testeee.summe(25.0, Double.MIN_VALUE) == (25));
+		assertTrue(testeee.summe(4.0, Double.MIN_VALUE) == (4));
 	}
 
 	@Test
@@ -66,7 +74,7 @@ public class CalculatorTest {
 	@Test
 	public void testDifferenzMinimum2() {
 		testeee = new Calculator();
-		assertTrue(testeee.differenz(Double.MIN_VALUE, 3) == -3);
+		assertTrue(testeee.differenz(Double.MIN_VALUE, 4) == -4);
 	}
 	
 	@Test
@@ -78,13 +86,13 @@ public class CalculatorTest {
 	@Test
 	public void testQuotientMaximum2() {
 		testeee = new Calculator();
-		assertTrue(testeee.quotient(Double.MAX_VALUE, 3) == Double.MAX_VALUE / 3);
+		assertTrue(testeee.quotient(Double.MAX_VALUE, 4) == Double.MAX_VALUE / 4);
 	}
 
 	@Test
 	public void testQuotientMaximum3() {
 		testeee = new Calculator();
-		assertTrue(testeee.quotient(3, Double.MAX_VALUE) == 3 / Double.MAX_VALUE);
+		assertTrue(testeee.quotient(44, Double.MAX_VALUE) == 44 / Double.MAX_VALUE);
 	}
 	
 	
