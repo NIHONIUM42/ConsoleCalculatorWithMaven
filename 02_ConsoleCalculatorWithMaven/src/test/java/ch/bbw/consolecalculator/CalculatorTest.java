@@ -25,5 +25,11 @@ public class CalculatorTest {
 		testee = new Calculator();
 		assertTrue(testee.differenz(25, 5)== 20);
 	}
+	
+	@Test
+	public void testMultiplicationZweiPositiveOk() {
+		testee = new Calculator();
+		assertTrue(testee.produkt(8, 125)== 1000);
+	}
 
 }
