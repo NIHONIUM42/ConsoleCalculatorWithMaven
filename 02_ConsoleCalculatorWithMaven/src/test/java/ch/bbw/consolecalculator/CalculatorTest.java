@@ -31,5 +31,11 @@ public class CalculatorTest {
 		testee = new Calculator();
 		assertTrue(testee.produkt(8, 125)== 1000);
 	}
+	
+	@Test
+	public void testDivisionZweiPositiveOk() {
+		testee = new Calculator();
+		assertTrue(testee.quotient(10, 2)== 5);
+	}
 
 }

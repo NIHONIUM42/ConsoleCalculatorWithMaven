@@ -23,6 +23,6 @@ public class Calculator {
 	}
 	
 	public int quotient(int dividend, int divisor) {
-		return dividend * divisor; 
+		return dividend / divisor; 
 	}
 }
