@@ -17,4 +17,8 @@ public class Calculator {
 	public int differenz(int minuend, int subtrahend) {
 		return minuend - subtrahend;
 	}
+	
+	public int produkt(int faktor1, int faktor2) {
+		return faktor1 * faktor2; 
+	}
 }
