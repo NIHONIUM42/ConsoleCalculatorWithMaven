@@ -10,19 +10,23 @@ package ch.bbw.consolecalculator;
 
 public class Calculator {
 	
-	public int summe(int summand1, int summand2) {
+	public double summe(double summand1, double summand2) {
 		return summand1 + summand2;
 	}
 	
-	public int differenz(int minuend, int subtrahend) {
+	public double differenz(double minuend, double subtrahend) {
 		return minuend - subtrahend;
 	}
 	
-	public int produkt(int faktor1, int faktor2) {
+	public double produkt(double faktor1, double faktor2) {
 		return faktor1 * faktor2; 
 	}
 	
-	public int quotient(int dividend, int divisor) {
+	public double quotient(double dividend, double divisor) {
+		if(dividend == 0) {
+			throw new ArithmeticException();
+		}else {
 		return dividend / divisor;
+		}
 	}
 }
