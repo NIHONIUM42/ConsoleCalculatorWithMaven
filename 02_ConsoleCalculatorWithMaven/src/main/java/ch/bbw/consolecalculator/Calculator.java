@@ -21,4 +21,8 @@ public class Calculator {
 	public int produkt(int faktor1, int faktor2) {
 		return faktor1 * faktor2; 
 	}
+	
+	public int quotiont(int dividend, int divisor) {
+		return dividend / divisor;
+	}
 }

@@ -29,7 +29,7 @@ public class CalculatorTest {
 	@Test
 	public void testMultiplicationZweiPositiveOk() {
 		testee = new Calculator();
-		assertTrue(testee.produkt(8, 125)== 1000);
+		assertTrue(testee.produkt(8, 125)== 1000); 
 	}
 
 }
