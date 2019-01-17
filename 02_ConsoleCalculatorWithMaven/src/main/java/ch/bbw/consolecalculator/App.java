@@ -66,7 +66,11 @@ public class App
 	        	System.out.println("\n Ihre Eingabe war ungültig. Versuchen Sie es nochmal. \n");
 	        }
 	        
-	
+        	System.out.println("Do you want to keep calculating? (y/n)");
+        	String s = scanner.next();
+        	if (s.equals("n")){
+        		x = true;
+        	}	
         }
         
     	System.out.println("\n Das Endresultat ist: " + result);
