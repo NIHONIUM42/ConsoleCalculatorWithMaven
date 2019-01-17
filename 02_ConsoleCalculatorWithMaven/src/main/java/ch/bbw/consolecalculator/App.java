@@ -25,7 +25,7 @@ public class App
         Double value2 = scanner.nextDouble();
 
         
-        if(operation == "+") {
+        if(operation == "+") { 
         	System.out.println("Summe " + value1 + " + " + value2 + " = " + calculator.summe(value1, value2));
         }
         else if(operation == "-"){
