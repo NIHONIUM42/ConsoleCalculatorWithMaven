@@ -68,7 +68,7 @@ public class App
 	        
         	System.out.println("Do you want to keep calculating? (y/n)");
         	String s = scanner.next();
-        	if (s.equals("n")){
+        	if (s.equals("n")){ 
         		x = true;
         	}	
         }
