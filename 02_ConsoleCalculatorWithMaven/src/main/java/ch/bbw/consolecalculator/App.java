@@ -73,7 +73,7 @@ public class App
         	}	
         }
         
-    	System.out.println("\n Das Endresultat ist: " + result);
+    	System.out.println("\n Das Endresultat ist: " + "'" + result + "'");
     	scanner.close();
     }
 }
