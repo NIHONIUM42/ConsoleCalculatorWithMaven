@@ -23,7 +23,7 @@ public class Calculator {
 	}
 	
 	public double quotient(double dividend, double divisor) {
-		if(dividend == 0) {
+		if(dividend ==  0) {
 			throw new ArithmeticException();
 		}else {
 		return dividend / divisor;
