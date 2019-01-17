@@ -22,7 +22,7 @@ public class Calculator {
 		return faktor1 * faktor2; 
 	}
 	
-	public int quotiont(int dividend, int divisor) {
+	public int quotient(int dividend, int divisor) {
 		return dividend / divisor;
 	}
 }
