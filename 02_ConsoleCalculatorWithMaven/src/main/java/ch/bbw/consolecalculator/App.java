@@ -13,34 +13,63 @@ public class App
         System.out.println();
         
 
-        System.out.println(" Welcome to Java Calculator v0.1 \n");
+        System.out.println("Welcome to Java Calculator v0.1 by Jovan Bühler \n");
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\n For now this calculator only supports operations with 1 operator and 2 numbers. \\n");
-        System.out.print("\n First number: ");
-        Double value1 = scanner.nextDouble();
-        System.out.println("\n Select between: * / + -");
-        String operation = scanner.next();
-        System.out.print("\n Second number: ");
-        Double value2 = scanner.nextDouble();
+        Boolean x = false;
+        
+        Double result = 0.0;
+        
+        while(x == false) {
+        	
+        	if (result != 0.0) {
 
+        	}
+        	else {
+
+	        	if(result == 0.0) {
+		        System.out.println("First value: ");
+		        int w = scanner.nextInt();
+		        result = Double.valueOf(w);
+		        
+	        	}
+	        	else{
+	        		System.out.println("First value: " + result);
+	        	}
+        	}
+	        	
+	        System.out.println("Select between: + - * /");
+	        String operation = scanner.next();
+	        
+	        System.out.println("Next value: ");
+	        int v = scanner.nextInt();
+	        Double value = Double.valueOf(v);
+	        
+
+	        if(operation.equals("+")) {  
+	        	System.out.println("Summe, " + result + " + " + value + " = " + calculator.summe(result, value));
+	        	result = calculator.summe(result, value);
+	        }
+	        else if(operation.equals("-")){
+	        	System.out.println("Differenz, " + result + " - " + value + " = " + calculator.differenz(result, value));
+	        	result = calculator.differenz(result, value);
+	        }
+	        else if(operation.equals("*")){
+	        	System.out.println("Produkt, " + result + " * " + value + " = " + calculator.produkt(result, value));
+	        	result = calculator.produkt(result, value);
+	        }
+	        else if (operation.equals("/")){
+	        	System.out.println("Quotient, " + result + " / " + value + " = " + calculator.quotient(result, value));
+	        	result = calculator.quotient(result, value);
+	        }
+	        else {
+	        	System.out.println("\n Ihre Eingabe war ungültig. Versuchen Sie es nochmal. \n");
+	        }
+	        
+	
+        }
         
-        if(operation == "+") {  
-        	System.out.println("Summe " + value1 + " + " + value2 + " = " + calculator.summe(value1, value2));
-        }
-        else if(operation == "-"){
-        	System.out.println("Differenz " + value1 + " + " + value2 + " = " + calculator.differenz(value1, value2));
-        }
-        else if(operation == "*"){
-        	System.out.println("Summe " + value1 + " + " + value2 + " = " + calculator.produkt(value1, value2));
-        }
-        else if (operation == "/"){
-        	System.out.println("Summe " + value1 + " + " + value2 + " = " + calculator.quotient(value1, value2));
-        }
-        else {
-        	System.out.println("Ihre Eingabe war ungültig. Versuchen Sie es nochmals.");
-        }
-        
-        scanner.close();
+    	System.out.println("\n Das Endresultat ist: " + result);
+    	scanner.close();
     }
 }
