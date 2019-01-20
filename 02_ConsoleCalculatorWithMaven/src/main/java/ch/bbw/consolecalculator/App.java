@@ -23,7 +23,7 @@ public class App
         while(x == false) {
         	
         	if (result != 0.0) {
-
+        		System.out.println("First value: " + result);
         	}
         	else {
 
@@ -32,9 +32,6 @@ public class App
 		        int w = scanner.nextInt();
 		        result = Double.valueOf(w);
 		        
-	        	}
-	        	else{
-	        		System.out.println("First value: " + result);
 	        	}
         	}
 	        	
@@ -71,6 +68,13 @@ public class App
         	if (s.equals("n")){ 
         		x = true;
         	}	
+        	else {
+            	System.out.println("Do you want go on with the value of the last result? (y/n)");
+            	String t = scanner.next();
+            	if (t.equals("n")){ 
+            		result = 0.0;
+            	}	
+        	}
         }
         
     	System.out.println("\n Das Endresultat ist: " + "'" + result + "'");
