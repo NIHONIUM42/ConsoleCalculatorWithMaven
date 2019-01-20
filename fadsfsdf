@@ -1,0 +1,70 @@
+* [33m0bee4be[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m release jar file on github with travis
+* [33m9624303[m Travis-target auf 'install' ändern
+* [33m7cfdd86[m Files verschieben, aufgrund Hinweises von travis.
+* [33m2934a89[m Es hat endlich geklappt, jetzt tests testen
+* [33m2f1dcd4[m travis-problem
+* [33m6e5bcb3[m travis funktiniert immernoch nicht
+* [33m4b36746[m travis funktiniert immernoch nicht
+* [33me57e98b[m add yml-file for travis
+* [33mfa51c00[m Add rewritten code because of merging conflict.
+*   [33m04fcc5c[m Merge branch 'master' of https://github.com/NIHONIUM42/ConsoleCalculatorWithMaven
+[32m|[m[33m\[m  
+[32m|[m * [33m5d67fc4[m Small spelling corrections and line to show end results when quitting
+* [33m|[m [33m4b086c1[m Small spelling correction
+* [33m|[m [33mdaa867e[m Small spelling corrections and line to show end results when quitting
+[33m|[m[33m/[m  
+* [33m7d5788f[m Adding option to break out of loop
+* [33m3829d79[m Adding while loop
+* [33m0834344[m Calculator Program v.01 in App-file einfügen
+* [33m92ffad4[m Calculator Program v.01 in App-file eingefügt
+* [33mc4503ca[m Calculator Program v.01 in App-file eingefügt
+*   [33m0086a6e[m[33m ([m[1;31morigin/ImplementApplication[m[33m)[m Merge branch 'TestingWithJUnit'
+[34m|[m[35m\[m  
+[34m|[m [35m|[m * [33m9bf6e91[m[33m ([m[1;32mImplementApplication[m[33m)[m made feature more solid
+[34m|[m [35m|[m * [33mbc78d4d[m Add option to reset result
+[34m|[m [35m|[m *   [33m4fb154c[m Merge branch 'TestingWithJUnit'
+[34m|[m [35m|[m [34m|[m[35m\[m  
+[34m|[m [35m|[m[34m/[m [35m/[m  
+[34m|[m[34m/[m[35m|[m [35m/[m   
+[34m|[m [35m|[m[35m/[m    
+[34m|[m * [33md1a6b5c[m[33m ([m[1;31morigin/TestingWithJUnit[m[33m, [m[1;32mTestingWithJUnit[m[33m)[m Alle tests gleichzeit laufen lassen und die tests, die absichtlich exceptions werfen zu comments gemacht
+[34m|[m * [33me186162[m Zwei tests korrigiert
+[34m|[m * [33m0bef0c0[m Die Tests ergänzt, sortiert und beschriftet
+[34m|[m * [33m3556ce6[m Test zu Overflow Handling
+[34m|[m * [33m3c8441c[m Test if dividend is zero
+[34m|[m * [33m629c311[m Replace int with double
+[34m|[m[34m/[m  
+*   [33mc5dd7a0[m resolving merge conflict
+[1;33m|[m[1;34m\[m  
+[1;33m|[m * [33mb26ffd3[m[33m ([m[1;32mImplementDivision[m[33m)[m Test Division with unittest
+[1;33m|[m * [33mdaf00fb[m[33m ([m[1;31morigin/ImplementDivision[m[33m)[m Test Division with unittest
+[1;33m|[m * [33m0bc3866[m Implement division
+* [1;34m|[m [33mbc8349e[m Implement division
+[1;34m|[m[1;34m/[m  
+*   [33mca5ea10[m Merge branch 'ImplementMultiplication'
+[1;35m|[m[1;36m\[m  
+[1;35m|[m * [33m460ba60[m[33m ([m[1;31morigin/ImplementMultiplication[m[33m, [m[1;32mImplementMultiplication[m[33m)[m Test Multiplication with unittest
+* [1;36m|[m   [33mff8f338[m Merge branch 'ImplementMultiplication'
+[31m|[m[1;36m\[m [1;36m\[m  
+[31m|[m [1;36m|[m[1;36m/[m  
+[31m|[m * [33m7ea3bde[m Implement Addition
+[31m|[m[31m/[m  
+* [33mf3b3b1a[m Test Subtraction with unittest.
+*   [33m365d098[m Merge branch 'ImplementAdditionAndSubtraction'
+[33m|[m[34m\[m  
+[33m|[m * [33m83336d9[m[33m ([m[1;31morigin/ImplementAdditionAndSubtraction[m[33m, [m[1;32mImplementAdditionAndSubtraction[m[33m)[m Implement Subtraction
+[33m|[m[33m/[m  
+* [33m89048b8[m[33m ([m[1;31morigin/ImplementSubtraction[m[33m, [m[1;32mImplementSubtraction[m[33m)[m Prepare test for subtraktion
+* [33m4a16380[m Test Calculator class with unittest.
+*   [33mf166293[m Merge branch 'ImplementAddition'
+[35m|[m[36m\[m  
+[35m|[m * [33m4ab34ac[m[33m ([m[1;31morigin/ImplementAddition[m[33m, [m[1;32mImplementAddition[m[33m)[m Git shall add the application class
+[35m|[m * [33mf11dafe[m Git shall add the calculator class
+[35m|[m[35m/[m  
+* [33mc533c18[m Git shall manage the project files.
+* [33meb24779[m Git shall ignore some files
+*   [33m682b9ef[m Merge branch 'master' of https://github.com/NIHONIUM42/ConsoleCalculatorWithMaven
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m3dde2e2[m Initial commit
+* [33m2b3fbcf[m alles von neuem aufbauen
+* [33me4bcae9[m initial commit
